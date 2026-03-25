@@ -14,7 +14,7 @@ except:
 
 @client.event
 async def on_ready():
-    print("起動成功")
+    print("起動成功:", client.user)
 
 @client.event
 async def on_message(message):
